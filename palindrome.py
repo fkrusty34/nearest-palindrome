@@ -15,16 +15,16 @@ while True:
  b = x
  b = x + a
  if str(b) == str(b)[::-1]:
- break
+  break
  b = x - a
  if str(b) == str(b)[::-1]:
- break
+  break
  a = a + 1
 
 #if the number is negative
 if c:
-b = " - " + str (b)
-b = int (b)
+ b = " - " + str (b)
+ b = int (b)
 
 #output
 print(b)
